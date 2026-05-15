@@ -1,0 +1,98 @@
+15-05-2026 19:50:41 INFO  [Hooks] - ExtentReports initialized → C:\Users\vaide\Desktop\Final_Project\reports\ExtentReport.html
+15-05-2026 19:50:41 INFO  [Hooks] - ========================================
+15-05-2026 19:50:41 INFO  [Hooks] - Scenario STARTED: Search cruises in London
+15-05-2026 19:50:41 INFO  [Hooks] - ========================================
+15-05-2026 19:50:41 INFO  [ConfigReader] - config.properties loaded successfully
+15-05-2026 19:50:41 INFO  [DriverManager] - Initializing browser: chrome
+15-05-2026 19:50:44 INFO  [DriverManager] - ChromeDriver started successfully
+15-05-2026 19:50:45 INFO  [DriverManager] - Browser maximized, implicit wait set to 20s
+15-05-2026 19:50:45 INFO  [DriverManager] - Navigated to: https://www.booking.com
+15-05-2026 19:50:45 INFO  [CruiseSteps] - Step: I am on Booking.com homepage for cruise search
+15-05-2026 19:50:45 INFO  [CruisePage] - CruisePage initialized
+15-05-2026 19:50:45 INFO  [CruiseSteps] - Step: I search cruises in 'London'
+15-05-2026 19:50:50 INFO  [CruisePage] - Sign-in popup dismissed
+15-05-2026 19:50:52 INFO  [CruisePage] - Clicked on Attractions tab
+15-05-2026 19:50:52 INFO  [CruisePage] - Entering destination: London
+15-05-2026 19:50:54 INFO  [CruisePage] - Destination selected: London
+15-05-2026 19:50:54 INFO  [CruiseSteps] - Step: For the next 5 days
+15-05-2026 19:50:54 INFO  [CruiseSteps] - Check-in: 2026-05-16 | Check-out: 2026-05-21
+15-05-2026 19:50:55 INFO  [CruisePage] - Check-in date selected: 2026-05-16
+15-05-2026 19:50:55 INFO  [CruisePage] - Check-out date selected: 2026-05-21
+15-05-2026 19:50:55 INFO  [CruiseSteps] - Step: Apply filter of 'Boat tours & cruises'
+15-05-2026 19:50:56 INFO  [CruisePage] - Clicked Search button
+15-05-2026 19:50:56 INFO  [CruisePage] - Expanding cruise filter
+15-05-2026 19:50:57 INFO  [CruisePage] - Boat tours & cruises filter applied
+15-05-2026 19:50:57 INFO  [CruiseSteps] - Step: Cruise results should be displayed
+15-05-2026 19:50:57 INFO  [CruisePage] - Printing top 3 cruise results
+15-05-2026 19:50:57 INFO  [CruisePage] - Cruise 1: River Thames Cruise
+15-05-2026 19:50:57 INFO  [CruisePage] - Price: Rs. 2,005
+15-05-2026 19:50:59 INFO  [CruisePage] - Duration: Duration: 40 minutes
+15-05-2026 19:51:01 INFO  [CruisePage] - Languages Offered: English French Spanish Japanese German Italian Russian
+15-05-2026 19:51:01 INFO  [CruisePage] - Cruise 2: Westminster to Greenwich Sightseeing Cruise
+15-05-2026 19:51:01 INFO  [CruisePage] - Price: Rs. 2,224
+15-05-2026 19:51:03 INFO  [CruisePage] - Duration: Duration: 1 hour
+15-05-2026 19:51:03 INFO  [CruisePage] - Languages Offered: German English Italian French Spanish
+15-05-2026 19:51:03 INFO  [CruisePage] - Cruise 3: London Eye and River Cruise Ticket
+15-05-2026 19:51:03 INFO  [CruisePage] - Price: Rs. 5,949
+15-05-2026 19:51:25 WARN  [CruisePage] - Duration not available for: London Eye and River Cruise Ticket
+15-05-2026 19:51:45 WARN  [CruisePage] - No languages found for: London Eye and River Cruise Ticket
+15-05-2026 19:51:45 INFO  [CruiseSteps] - Writing cruise results to Excel: testdata/HotelDetails.xlsx | Sheet: TestCase2
+15-05-2026 19:51:45 INFO  [CruisePage] - Extracting data for top 3 cruises
+15-05-2026 19:51:46 INFO  [CruisePage] - Cruise Extracted — Name: River Thames Cruise | Price: Rs. 2,005 | Duration: Duration: 40 minutes | Languages: English French Spanish Japanese German Italian Russian
+15-05-2026 19:51:48 INFO  [CruisePage] - Cruise Extracted — Name: Westminster to Greenwich Sightseeing Cruise | Price: Rs. 2,224 | Duration: Duration: 1 hour | Languages: German English Italian French Spanish
+15-05-2026 19:52:09 WARN  [CruisePage] - Duration not available for: London Eye and River Cruise Ticket
+15-05-2026 19:52:29 INFO  [CruisePage] - Cruise Extracted — Name: London Eye and River Cruise Ticket | Price: Rs. 5,949 | Duration: Duration not given | Languages: No Languages Offered
+15-05-2026 19:52:29 INFO  [CruisePage] - Total cruises extracted: 3
+15-05-2026 19:52:30 INFO  [CruiseSteps] - Cruise data written to Excel successfully — 3 rows
+15-05-2026 19:52:30 INFO  [Hooks] - Screenshot saved at: C:\Users\vaide\Desktop\Final_Project/screenshots/Search_cruises_in_London_15-05-2026_19-52-30.png
+15-05-2026 19:52:30 INFO  [Hooks] - Scenario PASSED: Search cruises in London
+15-05-2026 19:52:31 INFO  [Hooks] - ExtentReports flushed → C:\Users\vaide\Desktop\Final_Project\reports\ExtentReport.html
+15-05-2026 19:52:32 INFO  [DriverManager] - Driver quit successfully
+15-05-2026 19:52:32 INFO  [Hooks] - ========================================
+15-05-2026 19:52:32 INFO  [Hooks] - Scenario ENDED: Search cruises in London
+15-05-2026 19:52:32 INFO  [Hooks] - ========================================
+15-05-2026 19:52:32 INFO  [Hooks] - ========================================
+15-05-2026 19:52:32 INFO  [Hooks] - Scenario STARTED: Search hotels in Nairobi
+15-05-2026 19:52:32 INFO  [Hooks] - ========================================
+15-05-2026 19:52:32 INFO  [DriverManager] - Initializing browser: chrome
+15-05-2026 19:52:33 INFO  [DriverManager] - ChromeDriver started successfully
+15-05-2026 19:52:35 INFO  [DriverManager] - Browser maximized, implicit wait set to 20s
+15-05-2026 19:52:35 INFO  [DriverManager] - Navigated to: https://www.booking.com
+15-05-2026 19:52:36 INFO  [HotelSearchSteps] - Step: I am on Booking.com homepage for hotel search
+15-05-2026 19:52:36 INFO  [HotelSearchPage] - HotelSearchPage initialized
+15-05-2026 19:52:36 INFO  [HotelSearchSteps] - Step: I search hotels in 'Nairobi' for 5 days for 4 people
+15-05-2026 19:52:42 INFO  [HotelSearchPage] - Sign-in popup dismissed
+15-05-2026 19:52:45 INFO  [HotelSearchPage] - Entered destination: Nairobi
+15-05-2026 19:52:46 INFO  [HotelSearchPage] - Nairobi option selected from dropdown
+15-05-2026 19:52:46 INFO  [HotelSearchSteps] - Check-in: 2026-05-16 | Check-out: 2026-05-21
+15-05-2026 19:52:46 INFO  [HotelSearchPage] - Check-in date selected: 2026-05-16
+15-05-2026 19:52:46 INFO  [HotelSearchPage] - Check-out date selected: 2026-05-21
+15-05-2026 19:52:46 INFO  [HotelSearchPage] - Persons selector opened
+15-05-2026 19:52:46 INFO  [HotelSearchPage] - Adults set to: 4
+15-05-2026 19:52:46 INFO  [HotelSearchSteps] - Step: Sort by top reviewed and apply filter for 'Free Wifi'
+15-05-2026 19:52:51 INFO  [HotelSearchPage] - Search button clicked
+15-05-2026 19:52:52 INFO  [HotelSearchPage] - Sorted by Top Reviewed
+15-05-2026 19:52:53 INFO  [HotelSearchPage] - Free Wifi filter applied
+15-05-2026 19:52:53 INFO  [HotelSearchSteps] - Step: Hotel results should be displayed
+15-05-2026 19:52:54 INFO  [HotelSearchPage] - Printing hotel results — total found: 11
+15-05-2026 19:52:54 INFO  [HotelSearchPage] - Hotel 1: Zoe Homes Oak Villa Apartment 1 and 2 Bedroom 201 | 0.9 km from downtown | ₹ 12,411
+15-05-2026 19:52:54 INFO  [HotelSearchPage] - Hotel 2: Zoe Homes 1br and 2br Apartment Greypoint 406 | 1.6 km from downtown | ₹ 15,902
+15-05-2026 19:52:54 INFO  [HotelSearchPage] - Hotel 3: Zoe Homes 3br Mansionette Own Compound Kericho town near Green Square mall | 0.9 km from downtown | ₹ 38,785
+15-05-2026 19:52:54 INFO  [HotelSearchPage] - Hotel 4: Kericho LuxuryAirbnb | 0.7 km from downtown | ₹ 19,153
+15-05-2026 19:52:55 INFO  [HotelSearchPage] - Hotel 5: Zoe Homes 1br and 2br Cottage own compound -Kericho town near Green Square mall | 0.9 km from downtown | ₹ 17,453
+15-05-2026 19:52:55 INFO  [HotelSearchPage] - Hotel 6: Riverside Haven 4BR Modern Home with Private Serene Compound | 1.2 km from downtown | ₹ 38,785
+15-05-2026 19:52:55 INFO  [HotelSearchPage] - Hotel 7: Selesi Homes | 5.5 km from downtown | ₹ 32,177
+15-05-2026 19:52:55 INFO  [HotelSearchPage] - Hotel 8: Sahara Gardens-Kericho | 1.3 km from downtown | ₹ 34,009
+15-05-2026 19:52:55 INFO  [HotelSearchPage] - Hotel 9: Kericho Pride Hotel | 350 m from downtown | ₹ 10,534
+15-05-2026 19:52:55 INFO  [HotelSearchPage] - Hotel 10: Crown Hotel Kericho | 400 m from downtown | ₹ 22,026
+15-05-2026 19:52:55 INFO  [HotelSearchPage] - Hotel 11: Natural Lake Retreat Luxury Villa with Hot Tub and Stunning Views | 15.6 km from Kericho | ₹ 286,818
+15-05-2026 19:52:55 INFO  [HotelSearchSteps] - Writing hotel results to Excel: testdata/HotelDetails.xlsx | Sheet: TestCase1
+15-05-2026 19:52:56 INFO  [HotelSearchPage] - Total hotels: 11
+15-05-2026 19:52:56 INFO  [HotelSearchSteps] - Hotel data written to Excel successfully — 11 rows
+15-05-2026 19:52:56 INFO  [Hooks] - Screenshot saved at: C:\Users\vaide\Desktop\Final_Project/screenshots/Search_hotels_in_Nairobi_15-05-2026_19-52-56.png
+15-05-2026 19:52:56 INFO  [Hooks] - Scenario PASSED: Search hotels in Nairobi
+15-05-2026 19:52:56 INFO  [Hooks] - ExtentReports flushed → C:\Users\vaide\Desktop\Final_Project\reports\ExtentReport.html
+15-05-2026 19:52:57 INFO  [DriverManager] - Driver quit successfully
+15-05-2026 19:52:57 INFO  [Hooks] - ========================================
+15-05-2026 19:52:57 INFO  [Hooks] - Scenario ENDED: Search hotels in Nairobi
+15-05-2026 19:52:57 INFO  [Hooks] - ========================================
